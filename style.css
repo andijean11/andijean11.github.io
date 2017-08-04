@@ -1,0 +1,279 @@
+body {
+  font-family: 'Garamond', serif;
+  font-weight: normal;
+  color: black;
+  font-size: 16px;
+}
+
+header{
+    padding: 0px 0px 0px;
+    width: 100%;
+    }
+
+
+  header .row,
+  footer .row {
+   display: flex;
+    height: 100px;
+    max-width: 2500px;
+	align-items: center;
+    background-color: #D3C6DF;
+  }
+
+  header h1 {
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+header nav{
+  display: flex;
+  justify-content: flex-end;
+  font-size: relative;
+
+}
+
+header a {
+    padding: 10px 35px;
+    margin: 0;
+    display: inline-flex;
+    color: white;
+          }
+
+
+header a:hover {
+  color:black;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px;
+}
+
+header a:active{
+  color:purple;
+  text-decoration:none;
+}
+
+  .jumbotron {
+    display: block;
+   align-items: center;
+    background-image: url('images/dictionaryvid.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+  }
+
+  .jumbotron h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color:  #2E7299;
+  }
+
+  .jumbotron h3 {
+    margin: 0 0 0;
+    color: #2E7299;
+  }
+
+  section .row img{
+    margin: 0 0 30px;
+    width:100%;
+  }
+
+  .col-md-6 {
+    margin: 10px 0 50px;
+    height: 100px;
+    width: 200px;
+      }
+
+.col-md-6 .image {
+    position: relative;
+  }
+
+h2 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 100%;
+    font-size: relative;
+  }
+
+  .image {
+    max-height:960px;
+    max-width: 570px;
+  }
+
+  .fade {
+   opacity: 1.1;
+   transition: opacity 0s ;
+   -moz-transition: opacity 0s ease-in-out;
+   -webkit-transition: opacity 0s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.72;
+      }
+
+
+  img.resize {
+        max-width:200px;
+        max-height:200px;
+      }
+
+
+body a:hover {
+    color:black;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px;
+  }
+
+body a:active{
+    color:purple
+    text-decoration:none;
+  }
+
+
+  .btn.btn-primary:hover{
+    color:#ffffff;
+    background-color: purple;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+/* this is for gp1*/
+
+.frag1 {  color:#0D6EA5;}
+
+.frag2 {  color:#0D6EA5;}
+
+.frag3 {   color:#0D6EA5;}
+
+.frag4 {   color:#0D6EA5;}
+
+.frag5 {  color:#0D6EA5;}
+
+.frag6 {   color:#0D6EA5;}
+
+.frag7 {   color:#0D6EA5;}
+
+.frag8 {   color:#0D6EA5;}
+
+.frag9 {  color:#0D6EA5;}
+
+.frag10 {  color:#0D6EA5;}
+
+.frag11 {   color:#0D6EA5;}
+
+.frag12 {   color:#0D6EA5;}
+
+.black {
+  color: black;
+  }
+
+/* this is for gp2*/
+#drag1, #drag2, #drag13, #drag4 {
+
+  position: absolute;
+  left: 29%;
+  top: 39.5%;
+
+}
+
+#drag5, #drag6,#drag7, #drag8,#drag9, #drag10,#drag11, #drag12 {
+
+  position: absolute;
+  left: 27%;
+  top: 41%;
+
+  }
+
+#drag3, #drag14, #drag15, #drag16,#drag17{
+
+  position: absolute;
+  left: 30%;
+  top: 37%;
+
+}
+#drag18,#drag19, #drag20,#drag21, #drag22, #drag23, #drag24 {
+
+  position: absolute;
+  left: 28%;
+  top: 42%;
+
+}
+
+#dragA,#dragB, #dragC,#dragD, #dragE, #dragF, #dragG {
+
+  position: absolute;
+  left: 28.5%;
+  top: 43%;
+
+}
+
+.loadColor {
+  color: #6A519F;
+}
+
+.answerKey{
+  color: black;
+  line-height: 16px;
+}
+
+.answerKey{
+  color: #6A519F;
+}
+
+/* for gp3*/
+div.float1,div.float2,div.float3,div.float4,div.float5,div.float6,
+div.float7,div.float8,div.float9,div.float10,div.float11 {
+position: absolute;
+top: 51%;
+left: 55%;
+
+}
+
+/*for fp4*/
+.col-sm-3 .word1, .word2, .word3, .word4, .word4a, .word5, .word5a, .word6, .word7, .word8, .word9, .word10, .word11, .word12, .word13, .word14, .word15, .word16, .word17 {
+  color: #412D69;
+}
+
+.highlight{
+  background-color: #DEB4EE;
+}
+
+.highlight2  {
+  background-color:#FF5291;
+}
+
+.highlight3 {
+  background-color: #DEB4EE;
+}
+
+.highlight4 {
+  background-color:#FF5291;
+}
+
+
+/*for fp2
+.bt, .gt, .mt{
+  display: none;
+}
+
+
+  /*footer .col-sm-8 {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer ul {
+    list-style: none;*
+  }
+
+/*  footer li img{
+    width: 32px;
+    height:32px;
+  }*/

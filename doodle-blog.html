@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <title>The Mad Translator</title>
+  <meta charset="utf-8" />
+  <meta lang="US-en">
+  <link rel="icon" href="images/magic1.png">
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body><div class="content-wrapper">
+  <header class="container-fluid">
+    <div class="row">
+         <h1 class="col-sm-8">The Mad Translator</h1>
+      <nav class="col-sm-4">
+        <a href="index.html">home</a>
+        <a href="poetry.html">poetry</a>
+        <a href="doodle-blog.html">doodles</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+      </nav>
+    </div>
+  </header>
+</div>
+<!-- everything above this line is copy-paste on every page-->
+
+<div class="container">
+<div class="col-sm-8">
+
+
+<h1> Welcome to my Blog </h1>
+<h3> no idea if this will actually be useful, but I figured I would set it up. </h3>
+
+  <br><hr>
+<!-- template:
+<h4> TITLE</h4> <cite> DATE </cite>
+<br><br>
+<p> </p>
+<hr> -->
+
+
+<h4> EXPERIMENTAL TRANSLATIONS</h4> <cite> July 17, 2017 </cite>
+<br><br>
+<p>As I begin the sixth week of this fellowship, I'm starting to hit a groove! I've learned
+a lot of coding strategies. The first week I had ideas and I was trying to pick and choose
+bits of code that would accomodate, but now that I've dedicated much more time to learning
+a large breadth of coding, I can take what I want to do and think of multiple ways to accomplish it.
+ </p><p> This is especially important when working on my experimental translations. In addition
+   to exploring translation theory by exposing the two languages (original and target) to the reader
+   in an interactive way, I believe that digital publishing has the capability to produce interactive
+   text that isn't possible on paper. This is more similar to E-Poetry, and I'm trying to bring it to
+   translation. </p>
+   <p> That's why I decided to incorporate Laura Moser's translations into this first stage of
+     my website. She is also a student here at the UIowa MFA in Literary Translation program. Her
+     translations of Ancient Greek and Latin poetry incorporate imagination and ingenuity. She focuses
+     on bringing the translation-reading experience onto the page. I feel there is a lot of potential
+     in her work and in other works like this if we open it up to the internet. </p>
+     <p> Of course, experimental digital translation is not my invention. Two notable websites include
+       http://www.yhchang.com/ and www.85bawu.com. YHChang uses flash animation to control the speed
+        of the text, manipulating the reader's experience. And The 85 Project  uses art across media to
+         bring a physical existence to translations. What if translations were art instead of text? </p>
+    <p> I hope my website offers another space for experimental translations. Without going so far as
+       3D printing algorithms into benches, I hope these poems invite readers to expand their mindset
+        about what the process of translation is and what translations can look like. </p>
+<hr
+
+<h4> CODING</h4> <cite> July 12, 2017 </cite>
+<br><br>
+<p> Hello again blog readers! Although I know that's a bit gratuitous since, as of now,
+this website is only accessible by me because it's saved locally on a harddrive. So I'm being
+a bit silly. </p>
+<p> I've been learning so much coding my head hurts. As per my sister's recommendation,
+  I used <a href="https://www.codecademy.com"> Codecademy</a> to review html, JavaScript,
+  and CSS, and to learn Bootstrap and JQuery for the first time. I really enjoy the free
+  lessons that teach you how to code. If you do the 'building a website' one, you'll
+  probably notice that my website looks very similar, at least in this early stage.
+  Codecademy gave me the tools to read a code and understand everything it was doing,
+  instead of blindly cutting and pasting a template.</p>
+  <p> I was introduced to coding just by being a preteen in the early 2000s; you needed
+    small amounts of html to customize your myspace page (and my Neopets shop!). I did
+    online role-play storytelling with other teens and how else do you customize
+    your font except with html? However, that was about the extent of it.</p>
+    <p> In college I took intro to Comp. Science where they taught us Scheme, this verify
+      old and recursive language. Here's some code I'm still proud of that turns any given
+      image into black and white, because I got
+      extra credit for its consision: <blockquote>
+        (define monochrome
+  (lambda (image lens-color)
+    (image-variant image
+                   (lambda (rgb)
+                     (let ((modified-rgb-components-sum
+                            (+ (* 0.30 (rgb-red rgb))
+                             (* 0.59 (rgb-green rgb))
+                             (* 0.11 (rgb-blue rgb)))))
+                       (rgb-list->rgb (map (o (l-s *  0.5)
+                                              (l-s + modified-rgb-components-sum))
+                                        (rgb->rgb-list lens-color)))))))) </blockquote>
+    <p> The professor said I had an aptitude for coding but that was about the end of it.
+      I had to learn a little php for the employee portal I managed as a student manager,
+      but again, that's about it. </p>
+      <p> Learning how to build this website has been rewarding and frustrating. I know
+        that it has a lot of bugs. If one day this website is actually worth its salt,
+        maybe I'll go back and fix those things, but for now, it serves its purpose. </p>
+        <p> Soon I'll get some actual doodles on here, because I'm a very visual thinker,
+          and I believe in the power of comics to make complicated ideas accessible.</p>
+<hr>
+
+
+  <!--FIRST BLOG-->
+  <h4> THOUGHTS ON DIGITAL TRANSLATION </h4><cite> June 29, 2017 </cite>
+  <br> <br>
+  <p>Hello blog readers! I’m Andrea, one of the fellows in the UIowa Digital
+    Scholarship &amp; Publishing Studio this summer. I’m in the middle of the
+    MFA in Literary Translation Program at UIowa, and I translate from French to
+    English. This summer I’m working on a website that includes some translations
+     with digital features, inviting the reader to think like a translator and
+     explore how translators make decisions. For this post, I’m going to throw
+     out some ideas that I’ve been mulling around in my head regarding Machine
+     Translation.I could conduct research and practice digital translation for
+      the next ten years and still not be done, and the research from my first
+      year would become obsolete by the end of the decade. This may seem daunting,
+      but for me, young and naïve 23-year-old academic who still doesn’t drink
+       caffeine, the potential of this field is exciting. <br> <br>
+       I’ve been reading a lot of theory recently about machine translation and
+technology, specifically Google Translate which has gained dominance in the
+last five years. I love the ways these articles/essays both underscore and
+undermine traditional translation theory. Translation theory is thus incredibly
+ dynamic, constantly altered by the technologies that necessitate and facilitate
+  its existence.<br> <br>The field of translation is growing, and so is the
+  fear that one day we translators will be completely replaced by Translation
+   Machines. If you’re not scared yet, read about Google Translate’s
+   new<a href="https://www.newscientist.com/article/2126738-google-uses-neural-networks-to-translate-without-transcribing/">
+     “Neural Machine,”</a> which debuted last fall and
+     <a href="http://techcrunch.com/2017/03/06/googles-smarter-a-i-powered-translation-system-expands-to-more-languages/">
+       is gaining traction in new languages</a>. A brief quote that explains
+       how it works:<blockquote><em>“The team trained its system on hundreds
+         of hours of Spanish audio with corresponding English text. In each case,
+         it used several layers of neural networks – computer systems loosely
+         modelled on the human brain – to match sections of the spoken Spanish
+         with the written translation. To do this, it analysed the waveform of
+         the Spanish audio to learn which parts seemed to correspond with which
+          chunks of written English. When it was then asked to translate,
+          each neural layer used this knowledge to manipulate the audio waveform
+          until it was turned into the corresponding section of written English.”</em></blockquote>
+In other words, it’s translating “wave-to-wave” instead of “word-to-word.”
+This is a translation on a neurological level, not just a transcription of
+bilingual dictionaries. The emphasis is on accuracy of meaning without the
+obstacle of the words themselves.<br> <br>And, if you thought that Google had
+the monopoly on machine translation, just this week
+<a href="http://techcrunch.com/2017/06/26/amazon-said-to-be-working-on-translation-services-for-aws-customers/">
+  Amazon announced working on its own Machine Translation services</a>.<br> <br>
+I entered this program at UIowa because it seemed like a perfect fit for my
+interests in French literature. But will the skills I gain here be superseded by
+Machine Translation? Will my career be safe (if it was even safe in the first place)?
+ Should I consider pursuing other fields?<br> <br>Something I like to tell myself:
+  “Machines will never be able to fully grasp a literary text’s meaning, its artistry,
+  or its historical, cultural, and etymological context.”<br> <br>
+
+“Maybe, maybe not,” I cynically respond. Imagine a Google translate of the future
+ that allows settings for input and output. Translate one of Basho's haikus into
+  “teenage German vernacular.” Translate <em>Romeo and Juliet</em> into “Latin,
+  in the style of Cicero.” Translate Kafka’s <em>Metamorphosis</em> to English
+   using predominantly Anglo-Saxon words. What if one day Machine Translation has
+   this ability to alter its algorithms to include stylistic input and output? I
+   don’t think this is impossible. After all, Google Translate learns from its usage.
+   The more translations that are run through it, the stronger it gets, and the
+   smarter the translators get, the smarter it gets. With the right upkeep,
+   it will always have more memory, more resources, more algorithms than its
+   human counterparts.<br> <br>
+Many translators, including myself, sometimes use Google Translate for reference,
+ and after getting a rough draft of an excerpt, they work from there to imbue the
+ text with the elements “lost in translation.” If Machine Translation can help us
+ translate more efficiently, without completely taking over our careers, we should
+ celebrate its consequence: the increase of world literature available in English.
+  As translators, isn’t that our ultimate goal?<br> <br>
+
+So what does the future look like for translators? Will we become obsolete
+(or when?)? Will we have to pursue careers managing and coding Translation Machines?
+ I can’t say. For now, Google Translate is unable to capture style, rhyme, and rhythm;
+ it can only reproduce meaning. For now, Translation Machines are unable to adequately
+  compute the artistic qualities of texts. <a href="http://www.k-international.com/blog/human-translation-vs-machine-translation-contest/">
+    For now, human translation prevails</a>.<br> <br>
+
+Maybe one day Translation Machines will be able to interpret a text’s beauty.
+Until then, we need tech-savvy human translators working on world literature.
+ Until then, we need innovative and passionate translators to do what Machines cannot. Until then, I’ll be translating.
+</p><hr> </div> </div>
+
+
+
+
+
+
+
+
+<!--everything below this line is copy-paste on every page for the footer-->
+<div class="footer">
+<div class="content-wrapper">
+<footer class="container-fluid">
+  <div class="row">
+    <p class="col-sm-4">&copy; 2017 The Mad Translator</p>
+
+  </div>
+</footer>
+</div>
+</div>
+</body>
+
+</html>
